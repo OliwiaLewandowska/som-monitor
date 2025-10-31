@@ -1,0 +1,35 @@
+[theme]
+base = "light"
+primaryColor = "#0052CC"
+textColor = "#1A1A1A"
+font = "Inter"
+
+[theme.font]
+base = "Inter"
+sansSerif = "Inter"
+
+[theme.base]
+font = "48px"
+fontSize = "48px"
+
+[theme.textStyles]
+heading = "48px"
+body = "48px"
+
+[server]
+enableStaticServing = true
+
+[client]
+showErrorDetails = true
+
+[browser]
+serverAddress = "localhost"
+
+[runner]
+magicEnabled = true
+
+[ui]
+hideTopBar = true
+
+[browser.gatherUsageStats]
+enabled = false
